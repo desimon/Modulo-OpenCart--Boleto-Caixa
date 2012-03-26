@@ -1,9 +1,9 @@
-﻿/*
+/*
 * Módulo de Pagamento Boleto Bancário Caixa E.F.
-* Feito sobre OpenCart 1.4.9
+* Feito sobre OpenCart 1.5.1.3
 * Autor Original Leonardo Ribeiro - leovicio@pop.com.br
-* Modificado e Atualizado para 1.4.9 por Guilherme Desimon - http://www.desimon.net
-* @09/2010
+* Modificado e Atualizado para 1.5.1.3 por Guilherme Desimon - http://www.desimon.net
+* @01/2012
 * Sob licença GPL.
 */
 
@@ -14,21 +14,21 @@ Instalação:
 
 2) Na área administrativa da loja dar permissão para o grupo de usuários desejado para acessar e modificar o módulo payment/boleto_cef_sigcb:
 
-	2.1) Na sua área administrativa "/admin" vá em Sistema -> Usuários -> Grupos de Usuários;
+2.1) Na sua área administrativa "/admin" vá em Sistema -> Usuários -> Grupos de Usuários;
 
-	2.2) No grupo "Top Administrator" clique em Editar;
+2.2) No grupo "Top Administrator" clique em Editar;
 
-	2.3) Na lista "Permissão de Acesso", marque a opção "Payment/boleto_cef_sigcb";
+2.3) Na lista "Permissão de Acesso", marque a opção "Payment/boleto_cef_sigcb";
 
-	2.4) Faça o mesmo na lista "Permissão de Modificação";
+2.4) Faça o mesmo na lista "Permissão de Modificação";
 
 
 
 3)Configurar o módulo com os dados do boleto necessários, vá em Extensões -> Formas de Pagamento;
 
-	3.1) Encontre o módulo "Boleto Bancário CAIXA E.F SIGCB" e clique em Editar;
+3.1) Encontre o módulo "Boleto Bancário CAIXA E.F SIGCB" e clique em Editar;
 
-	3.2) Configure os campos necessários de acordo com seu dados de geração de boleto.
+3.2) Configure os campos necessários de acordo com seu dados de geração de boleto.
 
 
 Instalação Concluída!
