@@ -28,7 +28,7 @@ $_['entry_endereco'] = 'Endere&ccedil;o da Loja:';
 $_['entry_cidade_uf'] = 'Cidade / Estado:';
 $_['entry_cedente'] = 'Nome Cedente - Raz&#227;o Social:';
 $_['entry_agencia'] = 'Ag&ecirc;ncia sem d&iacute;gito:';
-$_['entry_conta'] = 'Conta 123-4 (<span style="color: red; text-weight: bold">Obrigatório colocar traço "-"</span>):';
+$_['entry_conta'] = 'Conta 1234-5 (<span style="color: red; text-weight: bold">Obrigatório colocar traço "-"</span>):';
 $_['entry_conta_cedente'] = 'Codigo Cedente (6 dig):';
 $_['entry_carteira'] = 'Carteira (SR ou CR):';
 $_['entry_dia_prazo_pg'] = 'Prazo Pagamento em dias (ex: 5):';
