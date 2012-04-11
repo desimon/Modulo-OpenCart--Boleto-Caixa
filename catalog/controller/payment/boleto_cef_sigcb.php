@@ -106,7 +106,7 @@ $dadosboleto["endereco2"] = $order_info['payment_city']."-".$order_info['payment
 
 // INFORMACOES PARA O CLIENTE
 $dadosboleto["demonstrativo1"] = $this->config->get('boleto_cef_sigcb_demonstrativo1');
-$dadosboleto["demonstrativo2"] = $this->config->get('boleto_cef_sigcb_demonstrativo2')."<br>Taxa banc&aacute;ria - R$ ".number_format($taxa_boleto, 2, ',', '');
+$dadosboleto["demonstrativo2"] = $this->config->get('boleto_cef_sigcb_demonstrativo2')."<br>Taxa banc&aacute;ria - R$ ".number_format((double)$taxa_boleto, 2, ',', '');
 $dadosboleto["demonstrativo3"] = $this->config->get('boleto_cef_sigcb_demonstrativo3');
 
 // INSTRUÇÕES PARA O CAIXA
