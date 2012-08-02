@@ -84,23 +84,24 @@ class ControllerPaymentBoletocefsigcb extends Controller {
 			$this->data['error_warning'] = '';
 		}
 
-  		$this->data['breadcrumbs'] = array();
-		
-   		$this->data['breadcrumbs'][] = array(
+  		$this->document->breadcrumbs = array();
+
+   		$this->document->breadcrumbs[] = array(
+       		'href'      => HTTPS_SERVER . 'index.php?route=common/home&token=' . $this->session->data['token'],
        		'text'      => $this->language->get('text_home'),
-			'href'      => $this->url->link('common/home', 'token=' . $this->session->data['token'], 'SSL'),
-      		'separator' => false
+      		'separator' => FALSE
    		);
-		
-   		$this->data['breadcrumbs'][] = array(
+
+   		$this->document->breadcrumbs[] = array(
+       		//'href'      => $this->url->https('extension/payment'),
+			'href'      => HTTPS_SERVER . 'index.php?route=extension/payment&token=' . $this->session->data['token'],
        		'text'      => $this->language->get('text_payment'),
-			'href'      => $this->url->link('extension/payment', 'token=' . $this->session->data['token'], 'SSL'),      		
       		'separator' => ' :: '
    		);
-		
-   		$this->data['breadcrumbs'][] = array(
+
+   		$this->document->breadcrumbs[] = array(
+       		'href'      => HTTPS_SERVER .'index.php?route=payment/boleto_cef_sigcb&token=' . $this->session->data['token'],
        		'text'      => $this->language->get('heading_title'),
-			'href'      => $this->url->link('payment/boleto_cef_sigcb', 'token=' . $this->session->data['token'], 'SSL'),
       		'separator' => ' :: '
    		);
 				

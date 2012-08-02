@@ -10,7 +10,7 @@
 <div style="background: #F7F7F7; border: 1px solid #DDDDDD; padding: 10px; margin-bottom: 10px;">
   <?php echo $text_instruction; ?><br />
   <br />
-  <a href="index.php?route=payment/boleto_cef_sigcb/callback&order_id=<?php echo $idboleto; ?>" target="_blank">Gerar Boleto Caixa</a><br />
+  <center><a href="index.php?route=payment/boleto_cef_sigcb/callback&order_id=<?php echo $idboleto; ?>" target="_blank"><img src="boleto/imagens/gerar_boleto_caixa.png" /></a></center><br />
   <br />
   <?php echo $text_payment; ?>
 </div>
