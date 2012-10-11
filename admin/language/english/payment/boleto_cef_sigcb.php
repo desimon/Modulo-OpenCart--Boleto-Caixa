@@ -37,7 +37,7 @@ $_['entry_nosso_numero1'] = 'Nosso numero 1 (000):';
 $_['entry_nosso_numero2'] = 'Nosso numero 2 (000):';
 $_['entry_nosso_numero3'] = 'Nosso numero 3 (000000000):';
 $_['entry_nosso_numero_const1'] = 'Registrado? 2 = sem 1 = com:';
-$_['entry_nosso_numero_const2'] = 'Emitido (4)diente:';
+$_['entry_nosso_numero_const2'] = 'Emissão? 4 = emitido pelo proprio cliente:';
 
 $_['entry_demonstrativo1'] = 'Demonstrativo1:';
 $_['entry_demonstrativo2'] = 'Demonstrativo2:';
