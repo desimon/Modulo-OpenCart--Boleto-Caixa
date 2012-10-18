@@ -90,7 +90,7 @@
           </tr>
           <tr>
             <td><?php echo $entry_conta; ?></td>
-            <td><input name="boleto_cef_sigcb_conta" type="text" id="boleto_cef_sigcb_conta" value="<?php echo $boleto_cef_sigcb_conta; ?>" maxlength="5" /></td>
+            <td><input name="boleto_cef_sigcb_conta" type="text" id="boleto_cef_sigcb_conta" value="<?php echo $boleto_cef_sigcb_conta; ?>" maxlength="6" /></td>
           </tr>
           <tr>
             <td><?php echo $entry_conta_cedente; ?></td>
